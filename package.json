@@ -1,0 +1,36 @@
+{
+  "name": "repo-stats-counter",
+  "version": "1.0.0",
+  "description": "A Node.js application to count deployments from multiple git repositories",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "stats": "node src/index.js --action=stats",
+    "config": "node src/index.js --action=config",
+    "leadtime": "node src/index.js --action=leadtime --calculate-lead-time",
+    "leadtime:insights": "node src/index.js --action=leadtime --insights",
+    "pull-requests": "node src/index.js --action=pull-requests"
+  },
+  "keywords": [
+    "git",
+    "repository",
+    "deployment",
+    "stats",
+    "counter"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "commander": "^11.1.0",
+    "chalk": "^5.3.0",
+    "dotenv": "^16.3.1",
+    "sqlite3": "^5.1.6",
+    "table": "^6.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

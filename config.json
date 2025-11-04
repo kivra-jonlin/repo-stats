@@ -1,0 +1,18 @@
+{
+  "repositories": [
+    {
+      "id": "github-kivra-teller",
+      "platform": "github",
+      "owner": "kivra",
+      "name": "teller",
+      "deploymentMethod": "tags",
+      "branch": "main",
+      "url": "https://github.com/kivra/teller",
+      "addedAt": "2025-11-04T14:26:15.446Z"
+    }
+  ],
+  "settings": {
+    "defaultDays": 30,
+    "updateInterval": 3600
+  }
+}
