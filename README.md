@@ -86,3 +86,5 @@ The application provides deployment statistics including:
 - Deployment frequency over time
 - Success/failure rates (if available)
 - Export options (JSON, CSV, console table)
+
+## Feature improvments backlog will be set soon
